@@ -193,17 +193,17 @@
               <h4 class="card-title">Title</h4>
               <h6 class="card-subtitle text-muted mb-2">Subtitle</h6>
               <p>Praesent viverra vitae diam eget fringilla. Vestibulum non dui ex. Nunc vestibulum dui sed massa ultrices, ut pretium leo gravida</p> 
-              <ul class="list-group list-group-flush">
+            </div>
+            <ul class="list-group list-group-flush">
               <li class="list-group-item">Item 1</li>
               <li class="list-group-item">Item 2</li>
               <li class="list-group-item">Item 3</li>
             </ul>
             <div class="card-body">
-              <a href="#" class="card-link">Vestibulum non</a>
+              <a href="#" class="card-link" data-toggle="modal" data-target="#siteModal">Vestibulum non</a>
               <a href="#" class="card-link">Praesent viverra</a>
             </div>
             <div class="card-footer text-muted">Footer</div>
-            </div>
           </div>
         </div>
       </div>
@@ -211,10 +211,40 @@
 
 
       
+
+
+    <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Título Modal</h5>
+            <button type="button" class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-6">
+                  <h5> Title </h5>
+                  <p>Aliquam vel ultrices nulla, quis aliquet mi. Nulla maximus mauris in purus viverra, eu tincidunt leo maximus. Proin dignissim risus nec velit tempus, nec laoreet libero accumsan. Donec non tellus felis. Cras hendrerit risus leo, vel mattis libero vehicula viverra. Proin consectetur quam orci, nec venenatis nulla porttitor in. Praesent auctor nunc nisl, at pretium arcu egestas in. Ut ac mattis enim. Aenean vulputate massa quis dignissim hendrerit. Sed congue urna non tortor pellentesque, a hendrerit mauris ornare. Nullam viverra nibh non orci fermentum, at consectetur erat volutpat. Etiam blandit tincidunt pulvinar. Donec malesuada tortor nec molestie aliquam. Ut et diam mauris. Cras at neque nibh. Nunc scelerisque nec metus nec finibus. Vivamus vel sem mattis, porttitor lacus vitae, tincidunt purus. Fusce lacus nunc, pellentesque non tempus nec, luctus feugiat tortor. Curabitur ac faucibus neque.</p>
+                </div>
+                <div class="col-6">
+                  <h5> Title </h5>
+                  <p>Aliquam vel ultrices nulla, quis aliquet mi. Nulla maximus mauris in purus viverra, eu tincidunt leo maximus. Proin dignissim risus nec velit tempus, nec laoreet libero accumsan. Donec non tellus felis. Cras hendrerit risus leo, vel mattis libero vehicula viverra. Proin consectetur quam orci, nec venenatis nulla porttitor in. Praesent auctor nunc nisl, at pretium arcu egestas in. Ut ac mattis enim. Aenean vulputate massa quis dignissim hendrerit. Sed congue urna non tortor pellentesque, a hendrerit mauris ornare. Nullam viverra nibh non orci fermentum, at consectetur erat volutpat. Etiam blandit tincidunt pulvinar. Donec malesuada tortor nec molestie aliquam. Ut et diam mauris. Cras at neque nibh. Nunc scelerisque nec metus nec finibus. Vivamus vel sem mattis, porttitor lacus vitae, tincidunt purus. Fusce lacus nunc, pellentesque non tempus nec, luctus feugiat tortor. Curabitur ac faucibus neque.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-  
-    
   </body>
 </html>
