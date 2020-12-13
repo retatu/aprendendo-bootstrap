@@ -7,7 +7,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/compiler/bootstrap.css">
-    <link rel="stylesheet" href="node_modules/bootstrap/compiler/style.css">
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.css">
 
     <title>Hello, world!</title>
   </head>
@@ -93,7 +94,10 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mt-5">
-          <h1 class="display-3">Ut et diam mauris</h1>
+          <h1 class="display-3">
+            <i class="fa fa-cogs text-primary"> </i>
+            Ut et diam mauris
+          </h1>
           <p>Fusce sit amet erat pharetra erat mattis aliquet</p>
         </div>
       </div>
@@ -213,7 +217,10 @@
       <div class="container">
         <div class="row">
           <div class="col-12 text-center">
-            <h1 class="display-4">Lorem ipsum dolor sit amet</h1>
+            <h1 class="display-4">
+              <i class="fa fa-video-camera text-primary"></i>
+              Lorem ipsum dolor sit amet
+            </h1>
             <p class="lead">Qui quaerat omnis quo fugiat repellendus ut iste quia At soluta quas quo sapiente dolor. Sit voluptas atque et ratione dolor et laborum dolorem eum dolorem perspiciatis eum distinctio enim a perspiciatis autem et blanditiis officia! Vel maiores nostrum sit tempora voluptatem eos accusantium internos est architecto eaque.</p>
             <hr>
           </div>
@@ -276,6 +283,116 @@
       </div>
     </div>
       
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center my-5">
+          <h1 class="display-4">
+            <i class="fa fa-paper-plane text-primary"></i>
+            Maecenas id gravida
+          </h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-sm-12 col-md-10 col-lg-8">
+          <form>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="inputNome">Seu Nome:</label>
+                <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+              </div>
+              <div class="form-group col-sm-6">
+                <label for="inputSobrenome">Seu Sobrenome:</label>
+                <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <label for="inputEndereco">Seu Endereço:</label>
+                <input type="text" class="form-control" id="inputEndereco" placeholder="Endereço">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-6">
+                <label for="inputCidade">Sua Cidade:</label>
+                <input type="text" class="form-control" id="inputCidade" placeholder="Cidade">
+              </div>
+              <div class="form-group col-sm-4">
+                <label for="inputEstado">Seu Estado:</label>
+                <select id="inputEstado" class="form-control">
+                  <option selected>Escolha...</option>
+                  <option>RS</option>
+                  <option>SC</option>
+                  <option>PR</option>
+                </select>
+              </div>
+              <div class="form-group col-sm-2">
+                <label for="inputCep">Seu CEP:</label>
+                <input type="text" class="form-control" id="inputCep" placeholder="CEP">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col-sm-12">
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox">Desejo Receber novidades por correio
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-sm-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+                <a tabindex=0 class="btn btn-secondary ml-2" role="button" data-toggle="popover" data-placement="right" data-trigger="focus" title="Título" data-content="Botão Ajuda">Botão Ajuda</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 mb-3"><hr></div>
+        <div class="col-sm-4">
+          <h3>Curso</h3>
+          <p>Pellentesque vitae metus ut ligula laoreet gravida. Aenean semper gravida ex, eget porttitor elit suscipit id. Phasellus quis pretium justo. Quisque tincidunt mi eu ex ultrices hendrerit. Aenean gravida enim ut arcu mattis, vitae iaculis lectus blandit. Donec semper vitae urna ac lobortis. </p>
+        </div>
+        <div class="col-sm-4">
+          <h3>Menu</h3>
+          <div class="list-group text-center">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Perfil</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Serviços</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Depoimentos</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Contatos</a>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <h3>Social</h3>
+          <div class="btn-group-vertical btn-block btn-group-lg" role="group">
+            <a class="btn btn-outline-primary" href="#">
+              <i class="fa fa-facebook-official"></i>
+              Facebook
+            </a>
+            <a class="btn btn-outline-info" href="#">
+              <i class="fa fa-twitter-square"></i>
+              Twitter
+            </a>
+            <a class="btn btn-outline-warning" href="#">
+              <i class="fa fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+        <div class="col-12 mt-5">
+          <blockquote class="blockquote text-center">
+            <p class="mb-0">O sucesso não é garantido, mas o fracasso é certo se você não estiver emocionalmente envolvido em seu trabalho.</p>
+            <footer class="blockquote-footer">
+              Biz Stone
+              <cite title="Título"> Twitter Founder</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </div>
 
 
     <div class="modal fade" id="siteModal" tabindex="-1" role="dialog">
@@ -311,5 +428,6 @@
     <script src="node_modules/jquery/dist/jquery.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="scripts/script.js"></script>
   </body>
 </html>
